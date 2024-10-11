@@ -10,11 +10,12 @@ const accountState=56;
 accountEmail="SaAh@gmail.com"
 accountPassword= "123456789"
 accountCity="Dubai"
+let accountCountr;
 
 /*
 Prefer Not to use Var
 Because of issue in block scope and functional scope
 */
 console.log(accountId);
-console.table([accountEmail,accountPassword,accountCity,accountState])
+console.table([accountEmail,accountPassword,accountCity,accountState,accountCountry])
 
