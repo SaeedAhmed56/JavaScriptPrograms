@@ -1,9 +1,6 @@
 //singleton
 //object.create
 
-const { object } = require("yup");
-
-
 //object literals
 
 const mySym = Symbol("key1")
