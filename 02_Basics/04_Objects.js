@@ -68,11 +68,11 @@ const {Instructor : Teacher} = course
 // console.log(course.Instructor);
 console.log(Teacher);
 
-{
-    "name" : "Saeed"
-    "course" : "JavaScript"
-    "price" : "Free"
-}
+// {
+//     "name" : "Saeed",
+//     "course" : "JavaScript",
+//     "price" : "Free"
+// }
 
 
 
