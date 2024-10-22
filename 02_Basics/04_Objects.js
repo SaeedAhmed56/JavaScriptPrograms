@@ -47,13 +47,32 @@ const User = [
         email :"D@gmail.com"
     },
 ]
-console.log(User[1].email);
-console.log(AppUser);
-console.log(Object.keys(AppUser));
-console.log(Object.values(AppUser));
-console.log(Object.entries(AppUser));
+// console.log(User[1].email);
+// console.log(AppUser);
+// console.log(Object.keys(AppUser));
+// console.log(Object.values(AppUser));
+// console.log(Object.entries(AppUser));
 
-console.log(AppUser.hasOwnProperty('name'));
+// console.log(AppUser.hasOwnProperty('name'));
+
+const course ={
+    courseName : "JavaScript",
+    Price : 999,
+    Instructor : "Saeed"
+}
+
+// course.Instructor
+
+const {Instructor : Teacher} = course
+
+// console.log(course.Instructor);
+console.log(Teacher);
+
+{
+    "name" : "Saeed"
+    "course" : "JavaScript"
+    "price" : "Free"
+}
 
 
 
